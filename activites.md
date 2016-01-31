@@ -6,7 +6,7 @@
 
 15 min
 
-- Name & expectations
+- Name & expectations (less than a minute each)
 
 #### Introduction on RUST
 
@@ -16,7 +16,7 @@
 - Community
 - Goal of the workshop
 
-#### Environment
+#### Development environment
 
 60 min
 

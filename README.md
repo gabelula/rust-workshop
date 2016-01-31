@@ -22,4 +22,3 @@ Mozilla PDX Office
 
 - Audrey Eschright
 - Gabriela Rodriguez (gaba @ twitter)
-- Jim Blandy

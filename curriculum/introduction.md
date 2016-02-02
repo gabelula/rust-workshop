@@ -16,11 +16,11 @@ How to contribute to Rust [2]
 
 ## Goal of the workshop
 
-To learn how Rust Work and practice on a hands-on exercise developing in Rust.
+To learn how Rust works and use hands-on exercises to gain experience with Rust programming.
 
 
 ## Resources
 
-[0] https://en.wikipedia.org/wiki/Rust_%28programming_language%29
-[1] http://www.steveklabnik.com/fosdem2015/
-[2] https://www.rust-lang.org/contribute.html
+- [0] https://en.wikipedia.org/wiki/Rust_%28programming_language%29
+- [1] http://www.steveklabnik.com/fosdem2015/
+- [2] https://www.rust-lang.org/contribute.html

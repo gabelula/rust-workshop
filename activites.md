@@ -1,14 +1,19 @@
 # Dynamics
 
-### Morning
+### Before the Event
+
+Attendees should install Rust following the directions under Installing Rust [in the Rust book](http://doc.rust-lang.org/book/getting-started.html)
+
+### Morning (10am-12:30pm)
 
 #### Introductions
 
 15 min
 
+- Instructor/organizers and TAs - our goals, what we like about Rust
 - Name & expectations (less than a minute each)
 
-#### Introduction on RUST
+#### Introduction to Rust
 
 30 min
 
@@ -16,30 +21,39 @@
 - Community
 - Goal of the workshop
 
-#### Development environment
+[break for 5 mins here]
 
-60 min
+#### The Rust programming environment
 
-- How to setup developer Environment
-
-#### Basics
-
-60 min
+45 min
 
 - Hello World Program
-- How things work in Rust
+- Using Cargo for code packaging
 
-### Afternoon
+[break for 10 mins here]
 
-#### Hands-on
+#### First steps in Rust
 
-Divide in groups. One TA per group and have a different idea/requirement per group to build.
+60-90 min (break for lunch at 12:30pm)
 
-- Build a command-line utility or game
+- work from Rust by Example (test run this, how many sections can we cover?)
+
+### Afternoon (1:30-5pm)
+
+#### Projects
+
+Sort students into 4 groups (one per TA) by choice of activity/experience level. Students can pair program or work alone.
+
+Activities:
+
+- [Guess a number game](http://doc.rust-lang.org/book/guessing-game.html)
+- [Wordcount utility](https://github.com/steveklabnik/rwc)
+
+Any students who finish early or get bored can switch activities or continue working through Rust by Example.
 
 ### Wrap-up
 
 Last 30 min.
 
-- Each group present their exercise with challenges/aha moments.
+- Each group presents the results of their exercise with challenges/aha moments.
 - Present resources to continue on

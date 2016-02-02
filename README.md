@@ -1,6 +1,6 @@
 # RUST Workshop for Beginners
 
-This is a workshop (RailsBridge's style) for programmers that want to learn Rust.
+This is a workshop (RailsBridge-style) for programmers that want to learn Rust.
 
 ###### Date
 
@@ -11,14 +11,18 @@ Saturday February 20th
 
 Mozilla PDX Office
 
+### Registration
+
+[Register on Eventbrite](https://www.eventbrite.com/e/rust-workshop-for-beginners-tickets-21138782668)
+
 ## To Do
 
-- finding ~4 TAs with Rust experience
-- a sponsor for lunch
-- donations like Rust Books
+- finding ~4 TAs with Rust experience (2 found, 2 needed)
+- a sponsor for lunch and childcare
+- donations like Rust books
 - outreach
 
 ## Organizer's Team
 
-- Audrey Eschright
+- Audrey Eschright (audrey@lifeofaudrey.com)
 - Gabriela Rodriguez (gaba @ twitter)

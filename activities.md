@@ -11,7 +11,7 @@ Attendees should install Rust following the directions under Installing Rust [in
 15 min
 
 - Instructor/organizers and TAs - our goals, what we like about Rust
-- Name & expectations (less than a minute each)
+- Students: name, primary programming language(s), learning goals (less than a minute each)
 
 #### Introduction to Rust
 
@@ -36,7 +36,7 @@ Attendees should install Rust following the directions under Installing Rust [in
 
 60-90 min (break for lunch at 12:30pm)
 
-- work from Rust by Example (test run this, how many sections can we cover?)
+- work from Rust by Example and the Rust Tutorial
 
 ### Afternoon (1:30-5pm)
 

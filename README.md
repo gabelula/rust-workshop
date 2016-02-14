@@ -17,12 +17,12 @@ Mozilla PDX Office
 
 ## To Do
 
-- finding ~4 TAs with Rust experience (2 found, 2 needed)
-- a sponsor for lunch and childcare
+- finding ~4 TAs with Rust experience (3 found, 1 needed)
+- a sponsor for lunch and childcare (DONE: Mozilla Diversity & Inclusion)
 - donations like Rust books
 - outreach
 
-## Organizer's Team
+## Organizing Team
 
 - Audrey Eschright (audrey@lifeofaudrey.com)
 - Gabriela Rodriguez (gaba @ twitter)

@@ -1,8 +1,12 @@
 # Introduction to RUST
 
+## Goal of the workshop
+
+To learn how Rust works and use hands-on exercises to gain experience with Rust programming.
+
 ## History
 
-Started as a personal project and was adopted by Mozilla, it is a safe, concurrent, practical language. It was release in 2015 and it has a very vibrant community. [0]
+Started as a personal project and was adopted by Mozilla, it is a safe, concurrent, practical language. It was released in 2015 and it has a very vibrant community. [0],[1]
 
 ## Community
 
@@ -13,11 +17,6 @@ How to contribute to Rust [2]
 - Community building
 - Fixing issues
 ...
-
-## Goal of the workshop
-
-To learn how Rust works and use hands-on exercises to gain experience with Rust programming.
-
 
 ## Resources
 

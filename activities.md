@@ -2,7 +2,7 @@
 
 ### Before the Event
 
-Attendees should install Rust following the directions under Installing Rust [in the Rust book](http://doc.rust-lang.org/book/getting-started.html)
+Attendees should install the current stable version of Rust following [the directions on the Rust website](https://www.rust-lang.org/downloads.html).
 
 ### Morning (10am-12:30pm)
 

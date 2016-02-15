@@ -47,6 +47,18 @@ Based on our hello world example, can you figure out how to write a program that
 
 What happens when you call the function with an input that isn't an integer?
 
+Functions in Rust don't have to return anything. If we do want them to have a return value, we specify it like this:
+
+    fn add_one(x: i32) -> i32 {
+       x + 1
+    }
+
+Writing `-> i32` tells Rust what the type of the return value will be. Notice the missing semicolon! The return value is a [statement, not an expression](http://doc.rust-lang.org/book/functions.html#expressions-vs-statements).
+
+If we wanted to return a value before the end of the program, we could use the `return` keyword. [Documentation](http://doc.rust-lang.org/book/functions.html#early-returns)
+
+*Update your program to add one to x before printing it.*
+
 ## Exercise 3
 ### if/else
 
@@ -71,7 +83,7 @@ let’s try some examples:
 
 If you’re used to C-style for loops, you might ask: “how do I know how many times we’ve already looped when our range doesn’t start from 0? there’s no `i` to track it."
 
-We can use the enumerate function to handle this http://doc.rust-lang.org/book/loops.html#enumerate
+We can use the enumerate function to handle this: http://doc.rust-lang.org/book/loops.html#enumerate
 
 Practice this: update the for loop exercise to use .enumerate() and change the output to say: “fizzbuzz on loop #” when it reaches that option
 
@@ -80,3 +92,4 @@ If we have time:
 - Ownership
 - References and borrowing
 - Lifetimes
+- Crates

@@ -52,6 +52,8 @@ Goals: experiment with simple boolean branching
 
 [open the example](http://rustbyexample.com/flow_control/if_else.html)
 
+Things to try: read through the code, run it, modify the value of n to reach all possible results
+
 ## Exercise 4
 ### Loops
 

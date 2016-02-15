@@ -1,4 +1,4 @@
-# Dynamics
+# The Workshop Schedule
 
 ### Before the Event
 

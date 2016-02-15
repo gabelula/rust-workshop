@@ -45,6 +45,8 @@ Here’s another:
 
 Based on our hello world example, can you figure out how to write a program that uses this function? (if you get stuck or don't know where to start, see the documentation and ask a TA for help)
 
+What happens when you call the function with an input that isn't an integer?
+
 ## Exercise 3
 ### if/else
 

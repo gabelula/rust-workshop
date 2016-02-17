@@ -1,6 +1,6 @@
-# RUST Workshop for Beginners
+# Rust Workshop for Beginners
 
-This is a workshop (RailsBridge-style) for programmers that want to learn Rust.
+This is a workshop (RailsBridge-style) for programmers who want to learn Rust. Students are expected to already be familiar with programming topics like control flow, data structures, and types. Prior knowledge of a compiled language is not a requirement.
 
 ###### Date
 

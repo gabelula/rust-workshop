@@ -15,12 +15,9 @@ Mozilla PDX Office
 
 [Register on Eventbrite](https://www.eventbrite.com/e/rust-workshop-for-beginners-tickets-21138782668)
 
-## To Do
+## License
 
-- finding ~4 TAs with Rust experience (3 found, 1 needed)
-- a sponsor for lunch and childcare (DONE: Mozilla Diversity & Inclusion)
-- donations like Rust books
-- outreach
+This repository is under the same license as the Rust Book and Rust itself, MIT/Apache2.
 
 ## Organizing Team
 

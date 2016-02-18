@@ -9,7 +9,7 @@ Saturday February 20th
 
 ###### Location
 
-Mozilla PDX Office
+Mozilla PDX Office at 1120 NW Couch St, Suite 320, Portland Oregon
 
 ### Registration
 

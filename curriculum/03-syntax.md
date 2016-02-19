@@ -14,7 +14,7 @@ Goals: explore how variables are defined in Rust and what a "variable binding" i
 We can define a variable like this:
 `let x = 5;`
 
-Variable bindings can set more than a single variable potentially, for example this pattern: `let (x,y) = (3,4);`
+Variable bindings can set more than a single variable, for example this pattern: `let (x,y) = (3,4);`
 
 Rust is statically typed, but it uses type inference, meaning it guesses what the variable’s type is. We can make this explicit: `let x: i32 = 5;`
 
@@ -57,8 +57,6 @@ Functions in Rust don't have to return anything. If we do want them to have a re
 
 Writing `-> i32` tells Rust what the type of the return value will be. Notice the missing semicolon! The return value is an [expression](http://doc.rust-lang.org/book/functions.html#expressions-vs-statements) -- as are most things in Rust. Semicolons are used to separate expressions. We don't need one at the end of the return value -- it would cause the function to return an empty expression.
 
-(Side note: `let x = y` is not an expression, it's a statement. See the link about expression above for details.)
-
 If we wanted to return a value before the end of the program, we could use the `return` keyword. [Documentation](http://doc.rust-lang.org/book/functions.html#early-returns)
 
 *Update your program to add one to x before printing it.*
@@ -96,17 +94,58 @@ If we have time:
 ## Exercise 5
 ### Ownership
 
-Ownership is how Rust achieves memory safety. There are three parts to how this works: ownership, borrowing, and lifetimes.
-
-[Documentation](http://doc.rust-lang.org/book/ownership.html)
+Ownership is how Rust achieves memory safety. There are three parts to how this works: [ownership](http://doc.rust-lang.org/book/ownership.html), [borrowing](http://doc.rust-lang.org/book/references-and-borrowing.html), and [lifetimes](http://doc.rust-lang.org/book/lifetimes.html).
 
 exercises:
 
-- [move](http://rustbyexample.com/scope/move.html)
-- [mutability](http://rustbyexample.com/scope/move/mut.html)
+- [ownership and moves](http://rustbyexample.com/scope/move.html)
 - [borrowing](http://rustbyexample.com/scope/borrow.html)
+- [lifetimes](http://rustbyexample.com/scope/lifetime.html)
 
-- Ownership
-- References and borrowing
-- Lifetimes
-- Crates
+These examples might be the first time you've encountered the terms "stack" and "heap". If so, [read more](http://doc.rust-lang.org/book/the-stack-and-the-heap.html) about what this means.
+
+This is just a brief introduction to this topic! To explore it further, read the sections of the Rust Book linked above, and try the other examples in Rust By Example chapter 14.
+
+## Exercise 6
+### Testing
+
+[Documentation](http://doc.rust-lang.org/book/testing.html)
+
+Goals: learn the basics of how to test our Rust code
+
+Let's have a look at the project we created using `cargo new`. At the end of *main.rs*, do you see this line? `#[test]`
+
+There's a default test included in our project. We can run this test with the command `cargo test`. Right now the text passes.
+
+We could make it fail instead:
+
+    #[test]
+    fn it_works() {
+       assert!(false);
+    }
+
+We can tell Rust to invert the result of the test when evaluating whether it passed:
+
+    #[test]
+    #[should_panic]
+      fn it_works() {
+        assert!(false);
+    }
+
+We can make an equality assertion as well:
+
+    fn it_works() {
+        assert_eq!("Hello", "world");
+    }
+
+Rust tests are typically grouped inside a [tests module](http://doc.rust-lang.org/book/testing.html#the-tests-module):
+
+  #[cfg(test)]
+  mod tests {
+      use super::add_two;
+
+      #[test]
+      fn it_works() {
+          assert_eq!(4, add_two(2));
+      }
+  }

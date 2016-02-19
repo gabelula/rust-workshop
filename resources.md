@@ -8,3 +8,4 @@
 - [Community Support](https://users.rust-lang.org/)
 - [Rust by example](http://rustbyexample.com/)
 - [This Week in Rust](https://this-week-in-rust.org/)
+- [Rust Playground](https://play.rust-lang.org/)

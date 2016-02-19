@@ -15,6 +15,10 @@ Mozilla PDX Office at 1120 NW Couch St, Suite 320, Portland Oregon
 
 [Register on Eventbrite](https://www.eventbrite.com/e/rust-workshop-for-beginners-tickets-21138782668)
 
+### Feedback
+
+If you participate in the workshop on 2/20, please give us [feedback](https://docs.google.com/forms/d/1CCeSvJcjrrRw0brzeQzmsRkiKQFJLh5k5pzywp-ngvI/viewform) about how it went
+
 ## License
 
 This repository is under the same license as the Rust Book and Rust itself, MIT/Apache2.

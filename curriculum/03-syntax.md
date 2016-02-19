@@ -29,6 +29,8 @@ How do we make a variable binding mutable? http://doc.rust-lang.org/book/mutabil
 
 See what types are available in Rust: http://doc.rust-lang.org/book/primitive-types.html
 
+[Strings](http://doc.rust-lang.org/book/strings.html) in Rust have some particularly interesting properties: `&str` defines "string slices" which are static, and `String` is used for growable UTF-8 strings
+
 ## Exercise 2
 ### Functions
 
@@ -88,6 +90,19 @@ We can use the enumerate function to handle this: http://doc.rust-lang.org/book/
 Practice this: update the for loop exercise to use .enumerate() and change the output to say: “fizzbuzz on loop #” when it reaches that option
 
 If we have time:
+
+## Exercise 5
+### Ownership
+
+Ownership is how Rust achieves memory safety. There are three parts to how this works: ownership, borrowing, and lifetimes.
+
+[Documentation](http://doc.rust-lang.org/book/ownership.html)
+
+exercises:
+
+- [move](http://rustbyexample.com/scope/move.html)
+- [mutability](http://rustbyexample.com/scope/move/mut.html)
+- [borrowing](http://rustbyexample.com/scope/borrow.html)
 
 - Ownership
 - References and borrowing

@@ -36,7 +36,7 @@ Attendees should install the current stable version of Rust following [the direc
 
 60-90 min (break for lunch at 12:30pm)
 
-- work from Rust by Example and the Rust Tutorial
+- work from Rust by Example and the Rust Book
 
 ### Afternoon (1:30-5pm)
 

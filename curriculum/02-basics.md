@@ -32,7 +32,8 @@ Goals: learn how to build with release optimizations, and why we don’t need to
 
 Goals: learn how to speed up development setup by using Cargo to create a project
 
-`cargo new my_project` sets up the directory structure, a configuration template, and initializes git
+`cargo new my_project --bin` sets up the directory structure, a configuration template, and initializes git
+`--bin` indicates a binary project instead of a library
 
 ## Exercise 5
 ### Compile errors

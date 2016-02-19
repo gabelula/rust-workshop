@@ -1,7 +1,5 @@
 
-Divide in groups. One TA per group and have a different idea/requirement per group to build.
+We'll split into groups based on which project people want to work on, and assign TAs to help.
 
 - [Guess a number game](http://doc.rust-lang.org/book/guessing-game.html)
-- [Wordcount utility](https://github.com/steveklabnik/rwc)
-
-TODO - write out wc utility exercise as a series of steps
+- [Wordcount utility](./05-wordcount.md)

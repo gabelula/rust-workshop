@@ -6,15 +6,21 @@ To learn how Rust works and use hands-on exercises to gain experience with Rust 
 
 ## History
 
-Started as a personal project and was adopted by Mozilla, it is a safe, concurrent, practical language. It was released in 2015 and it has a very vibrant community. [0],[1]
+Started as a personal project and was adopted by Mozilla in 2009. It is designed to be a safe, concurrent, practical language. It was officially released in May 2015 and it has a very vibrant community. [0],[1]
 
 - general purpose, multi-paradigm, compiled programming language
-- designed to be a safe, concurrent, practical language
+- designed to be fast and safe: thread safety, memory safety, no segfaults
 - supports pure-functional, concurrent-actor, imperative-procedural and object-oriented styles
+
+## What sorts of things are written in Rust?
+
+- the [Rust compiler](https://github.com/rust-lang/rust/tree/master/src) itself
+- [Servo](https://github.com/servo/servo), a web browser engine being developed by Mozilla
+- a NES emulator called [sprocketnes](https://github.com/pcwalton/sprocketnes)
 
 ## Community
 
-How to contribute to Rust [2]
+How to contribute to Rust: [2]
 
 - Use it! and tell people about your experiences
 - File bugs

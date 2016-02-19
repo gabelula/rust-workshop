@@ -13,7 +13,7 @@ Attendees should install the current stable version of Rust following [the direc
 - Instructor/organizers and TAs - our goals, what we like about Rust
 - Students: name, primary programming language(s), learning goals (less than a minute each)
 
-#### Introduction to Rust
+#### [Introduction to Rust](./curriculum/01-introduction.md)
 
 30 min
 
@@ -23,7 +23,7 @@ Attendees should install the current stable version of Rust following [the direc
 
 [break for 5 mins here]
 
-#### The Rust programming environment
+#### [The Rust programming environment](./curriculum/02-basics.md)
 
 45 min
 
@@ -32,7 +32,7 @@ Attendees should install the current stable version of Rust following [the direc
 
 [break for 10 mins here]
 
-#### First steps in Rust
+#### [First steps in Rust](./curriculum/03-syntax.md)
 
 60-90 min (break for lunch at 12:30pm)
 
@@ -40,14 +40,14 @@ Attendees should install the current stable version of Rust following [the direc
 
 ### Afternoon (1:30-5pm)
 
-#### Next steps
+#### [Next steps](./curriculum/03-syntax.md#exercise-5)
 
 - ownership
 - borrowing
 - lifetimes
-- testing (mid-afternoon, when "guess a number" projects are mostly completed)
+- [testing](./curriculum/03-syntax.md#exercise-6) (mid-afternoon, when "guess a number" projects are mostly completed)
 
-#### Projects
+#### [Projects](./curriculum/04-exercises.md)
 
 Sort students into 4 groups (one per TA) by choice of activity/experience level. Students can pair program or work alone.
 

@@ -149,3 +149,5 @@ Rust tests are typically grouped inside a [tests module](http://doc.rust-lang.or
           assert_eq!(4, add_two(2));
       }
   }
+
+What tests do you think you could add to the code you've written so far?

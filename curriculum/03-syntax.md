@@ -55,7 +55,9 @@ Functions in Rust don't have to return anything. If we do want them to have a re
        x + 1
     }
 
-Writing `-> i32` tells Rust what the type of the return value will be. Notice the missing semicolon! The return value is a [statement, not an expression](http://doc.rust-lang.org/book/functions.html#expressions-vs-statements).
+Writing `-> i32` tells Rust what the type of the return value will be. Notice the missing semicolon! The return value is an [expression](http://doc.rust-lang.org/book/functions.html#expressions-vs-statements). Semicolons are used to separate expressions, and we don't need one at the end of the return value -- it would indicate an empty expression.
+
+(Side note: `let x = y` is not an expression, it's a statement. See the link about expression above for details.)
 
 If we wanted to return a value before the end of the program, we could use the `return` keyword. [Documentation](http://doc.rust-lang.org/book/functions.html#early-returns)
 

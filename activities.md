@@ -40,6 +40,13 @@ Attendees should install the current stable version of Rust following [the direc
 
 ### Afternoon (1:30-5pm)
 
+#### Next steps
+
+- ownership
+- borrowing
+- lifetimes
+- testing (mid-afternoon, when "guess a number" projects are mostly completed)
+
 #### Projects
 
 Sort students into 4 groups (one per TA) by choice of activity/experience level. Students can pair program or work alone.
@@ -47,7 +54,7 @@ Sort students into 4 groups (one per TA) by choice of activity/experience level.
 Activities:
 
 - [Guess a number game](http://doc.rust-lang.org/book/guessing-game.html)
-- [Wordcount utility](https://github.com/steveklabnik/rwc)
+- [Wordcount utility](./curriculum/05-wordcount.md)
 
 Any students who finish early or get bored can switch activities or continue working through Rust by Example.
 

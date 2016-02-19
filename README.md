@@ -17,7 +17,7 @@ Mozilla PDX Office at 1120 NW Couch St, Suite 320, Portland Oregon
 
 ### Feedback
 
-If you participate in the workshop on 2/20, please give us [feedback](https://docs.google.com/forms/d/1CCeSvJcjrrRw0brzeQzmsRkiKQFJLh5k5pzywp-ngvI/viewform) about how it went
+If you participate in the workshop on 2/20, please give us [feedback](https://docs.google.com/forms/d/1CCeSvJcjrrRw0brzeQzmsRkiKQFJLh5k5pzywp-ngvI/viewform) about how it went.
 
 ## License
 

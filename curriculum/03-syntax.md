@@ -87,9 +87,7 @@ If you’re used to C-style for loops, you might ask: “how do I know how many 
 
 We can use the enumerate function to handle this: http://doc.rust-lang.org/book/loops.html#enumerate
 
-Practice this: update the for loop exercise to use .enumerate() and change the output to say: “fizzbuzz on loop #” when it reaches that option
-
-If we have time:
+Practice this: update the [for loop exercise](http://rustbyexample.com/flow_control/for.html) to use .enumerate() and change the output to say: “fizzbuzz on loop #” when it reaches that option
 
 ## Exercise 5
 ### Ownership

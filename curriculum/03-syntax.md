@@ -111,9 +111,15 @@ This is just a brief introduction to this topic! To explore it further, read the
 
 Goals: learn the basics of how to test our Rust code
 
-Let's have a look at the project we created using `cargo new`. At the end of *main.rs*, do you see this line? `#[test]`
+Let's have a look at the project we created using `cargo new`.
 
-There's a default test included in our project. We can run this test with the command `cargo test`. Right now the text passes.
+If we created a project without `--bin`, a default test is included in our project (otherwise we'll just add it).
+
+    #[test]
+    fn it_works() {
+    }
+
+We can run this test with the command `cargo test`. Right now the test passes.
 
 We could make it fail instead:
 
@@ -138,14 +144,18 @@ We can make an equality assertion as well:
 
 Rust tests are typically grouped inside a [tests module](http://doc.rust-lang.org/book/testing.html#the-tests-module):
 
-  #[cfg(test)]
-  mod tests {
-      use super::add_two;
-
-      #[test]
-      fn it_works() {
-          assert_eq!(4, add_two(2));
-      }
-  }
+    pub fn add_two(a: i32) -> i32 {
+        a + 2
+    }
+    
+    #[cfg(test)]
+    mod tests {
+        use super::add_two;
+    
+        #[test]
+        fn it_works() {
+            assert_eq!(4, add_two(2));
+        }
+    }
 
 What tests do you think you could add to the code you've written so far?

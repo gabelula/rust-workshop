@@ -126,7 +126,7 @@ We can tell Rust to invert the result of the test when evaluating whether it pas
 
     #[test]
     #[should_panic]
-      fn it_works() {
+    fn it_works() {
         assert!(false);
     }
 

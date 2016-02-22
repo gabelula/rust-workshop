@@ -1,0 +1,7 @@
+[package]
+name = "kittens"
+version = "0.1.0"
+authors = ["Gabriela Rodriguez <gabelula@gmail.com>"]
+
+[dependencies]
+getopts = "0.2"
